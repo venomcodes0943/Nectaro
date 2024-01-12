@@ -261,6 +261,52 @@
     font-family: manrope-2xbold;
 }
 
+.accod {
+    background-color: #F6F6F9;
+}
+
+.b-btn:hover .primary-arrow-icon2 {
+    left: 50%;
+}
+
+.b-btn:hover .primary-arrow-icon {
+    left: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:992px) {
     .navbar {
