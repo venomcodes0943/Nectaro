@@ -257,7 +257,9 @@
     background-color: #353740;
 }
 
-
+.banner-heading {
+    font-family: manrope-2xbold;
+}
 
 
 @media (max-width:992px) {
@@ -340,8 +342,14 @@
         justify-content: center;
     }
 
-
+    #last-banner-para {
+        font-size: 16px !important;
+        font-weight: 350;
+        line-height: 22px;
+        font-family: manrope-light;
+    }
 }
+
 
 @media (max-width:600px) {
     .footer {
