@@ -101,6 +101,10 @@
     font-family: manrope-bold;
 }
 
+#nav-link:active {
+    color: #5042F3 !important;
+}
+
 .c-btn>a {
     padding: 16px 32px;
     background-color: #a0f000;
@@ -414,6 +418,7 @@
 .blog-img3 {
     background-image: url(assets/img/thrd.png);
 }
+
 .blog-img4 {
     background-image: url(assets/img/forth.png);
 }
@@ -439,11 +444,37 @@
     letter-spacing: 0.05rem;
 }
 
+.invst-para {
+    color: #5042F3;
+    font-weight: bold;
+    font-size: 1.25rem !important;
+}
 
+.invst-head {
+    font-weight: bolder;
+    font-size: 3rem !important;
+    letter-spacing: -.005rem !important;
+    line-height: 3.625rem;
+}
 
+.incst-rawpara {
+    font-size: 1.25rem !important;
+    font-weight: 350;
+    line-height: 1.75rem;
+}
 
+.avail-card{
+    background-color: #F6F6F9;
+    border-radius: 10px;
+}
 
-
+.cooming-soon{
+    left: 30%;
+    background-color: #a0f000;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 35px;
+}
 
 
 
@@ -502,6 +533,22 @@
         font-size: 1rem !important;
         font-weight: 350;
         width: 576px;
+    }
+
+    .invst-para {
+        font-size: 16px !important;
+        line-height: 22px;
+    }
+
+    .invst-head {
+        font-size: 28px !important;
+        letter-spacing: -.14px !important;
+        line-height: 34px;
+    }
+
+    .incst-rawpara {
+        font-size: 16px !important;
+        line-height: 22px;
     }
 
 }
