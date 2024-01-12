@@ -66,6 +66,34 @@
     list-style: none;
 }
 
+.sidenav {
+    background-color: #fff;
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    right: 0px;
+    transition: all 0.3s;
+}
+
+.close-btn-sidenav {
+    margin: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sidenav-list li:active {
+    color: #5042F3;
+}
+
+.s-btn {
+    padding: 16px 32px;
+    background-color: #a0f000;
+    color: black;
+    border-radius: 28px;
+}
+
 #nav-link,
 .nav-drop,
 .signup {
@@ -129,7 +157,7 @@
     margin-top: 90px;
 }
 
-.card {
+.b-card {
     border: none;
     padding: 15px 10px;
     background-color: #F6F3FE !important;
@@ -359,8 +387,57 @@
     display: none;
 }
 
+.blog-head {
+    font-size: 4rem !important;
+}
 
+.blog-para {
+    font-size: 1.25rem !important;
+    font-weight: 350;
+    width: 576px;
+}
 
+.blog-img {
+    min-height: 211px;
+    background-image: url(assets/img/first.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.blog-img2 {
+    background-image: url(assets/img/sec.jpg);
+
+}
+
+.blog-img3 {
+    background-image: url(assets/img/thrd.png);
+}
+.blog-img4 {
+    background-image: url(assets/img/forth.png);
+}
+
+.blog-card {
+    border-radius: 15px;
+    margin: 25px 0px;
+    max-height: 420px;
+}
+
+.blog-card:hover {
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 38px 62px 0px;
+    border: 1px solid #F6F6F9;
+}
+
+.blog-title {
+    font-size: 1.25rem !important;
+    font-family: manrope-bold;
+}
+
+.blog-contant {
+    letter-spacing: 0.05rem;
+}
 
 
 
@@ -417,6 +494,15 @@
         font-size: 14px !important;
     }
 
+    .blog-head {
+        font-size: 36px !important;
+    }
+
+    .blog-para {
+        font-size: 1rem !important;
+        font-weight: 350;
+        width: 576px;
+    }
 
 }
 
@@ -508,6 +594,10 @@
 
     .heading {
         font-size: 28px !important;
+    }
+
+    .blog-para {
+        width: 284px;
     }
 }
 
