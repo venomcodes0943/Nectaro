@@ -623,17 +623,45 @@
     border-radius: 28px;
 }
 
+.about-para {
+    padding: 10px 65px;
+}
 
+.about-main-card {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    max-width: 850px;
+    border-radius: 25px;
+    border: 1px solid #e7e6e6;
+}
 
+.amc-head {
+    font-family: manrope-2xbold;
+}
 
+.about-svg {
+    width: max-content;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+}
 
+.f-hide {
+    display: block;
+}
 
+.last-amc {
+    margin-top: 120px;
+}
 
+.pro-head {
+    font-family: manrope-2xbold;
+}
 
-
-
-
-
+.pro-detl {
+    color: #666A79;
+    font-weight: 400;
+}
 
 
 
@@ -794,6 +822,17 @@
     .frequenthead {
         font-size: 28px !important;
     }
+
+    .about-para {
+        padding: 10px;
+        font-size: 18px !important;
+    }
+
+    .about-main-card {
+        border-radius: 0px;
+        border: none;
+        box-shadow: none;
+    }
 }
 
 
@@ -864,5 +903,23 @@
     .banner-heading {
         font-size: 24px !important;
         line-height: normal;
+    }
+
+}
+
+@media (max-width:1172px) {
+
+    .about-svg,
+    .f-hide {
+        display: none;
+    }
+
+    .f-width {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .last-amc {
+        margin-top: 0px;
     }
 }
