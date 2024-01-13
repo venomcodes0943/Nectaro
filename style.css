@@ -608,14 +608,20 @@
 }
 
 .create-form {
-    width: 670px;
+    width: 580px;
 }
 
+.checed-para {
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 24px;
+}
 
-
-
-
-
+.f-btn {
+    background-color: #141414;
+    padding: 16px 32px;
+    border-radius: 28px;
+}
 
 
 
@@ -837,6 +843,10 @@
         font-weight: 600;
         font-size: 12px;
         border-radius: 0px 35px 35px 0px;
+    }
+
+    .form-info-text {
+        font-size: 14px;
     }
 }
 

@@ -39,19 +39,20 @@
     <div class="container mt-0 mt-lg-5">
         <div class="pb-4 mx-2 top-tabs d-flex justify-content-center">
             <a href="createaccount.html" class="text-decoration-none">
-                <div class="left-tab">Individual</div>
+                <div class="right-tab" style="border-radius: 35px 0px 0px 30px;">Individual</div>
             </a>
             <a href="companyaccount.html" class="text-decoration-none">
-                <div class="right-tab">Company</div>
+                <div class="left-tab" style="border-radius: 0px 35px 35px 0px;">Company</div>
             </a>
         </div>
         <div class="d-flex justify-content-center align-items-center">
             <form class="create-form d-flex flex-column">
-                <h2 class="form-head py-2 text-center">Sign up as an individual</h2>
+                <h2 class="form-head py-2 text-center">Sign up as a company</h2>
+                <input type="email" class="form-input my-3" placeholder="Company Name">
                 <div
                     class="d-flex flex-column flex-md-row flex-lg-row justify-content-between w-100 gap-0 gap-lg-4 gap-md-3">
-                    <input type="email" class="form-input my-3" placeholder="First name">
-                    <input type="email" class="form-input my-3" placeholder="Last name">
+                    <input type="email" class="form-input my-3" placeholder="Representative first name">
+                    <input type="email" class="form-input my-3" placeholder="Representative last name">
                 </div>
                 <select class="form-input">
                     <option class="form-input">Pakistan</option>
@@ -175,7 +176,8 @@
                         <a href="#" class="link text-dark b-btn">Back To Sign In</a>
                     </div>
                     <div class="f-btn">
-                        <button type="submit" class="text-decoration-none fw-bold text-light" style="border: none; outline: none; background-color: transparent;">Create account</button>
+                        <button type="submit" class="text-decoration-none fw-bold text-light"
+                            style="border: none; outline: none; background-color: transparent;">Create account</button>
                     </div>
                 </div>
             </form>
