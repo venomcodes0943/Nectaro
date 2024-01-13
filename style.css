@@ -444,31 +444,35 @@
     letter-spacing: 0.05rem;
 }
 
-.invst-para {
+.invst-para,
+.how-purple {
     color: #5042F3;
     font-weight: bold;
     font-size: 1.25rem !important;
 }
 
-.invst-head {
+.invst-head,
+.how-head {
     font-weight: bolder;
     font-size: 3rem !important;
     letter-spacing: -.005rem !important;
     line-height: 3.625rem;
+    font-family: manrope-2xbold;
 }
 
-.incst-rawpara {
+.incst-rawpara,
+.how-para {
     font-size: 1.25rem !important;
     font-weight: 350;
     line-height: 1.75rem;
 }
 
-.avail-card{
+.avail-card {
     background-color: #F6F6F9;
     border-radius: 10px;
 }
 
-.cooming-soon{
+.cooming-soon {
     left: 30%;
     background-color: #a0f000;
     padding: 4px 8px;
@@ -476,12 +480,37 @@
     border-radius: 35px;
 }
 
+.info-invest {
+    background-color: #F6F6F9;
+}
 
+.info-para {
+    font-size: 13px !important;
+    font-weight: 400;
+    letter-spacing: .01rem !important;
+    line-height: 18px;
+}
 
+.how-card-head {
+    font-size: 2rem !important;
+    font-weight: 800;
+    font-family: manrope-2xbold;
+    line-height: 2.625rem;
+}
 
+.how-card-para {
+    font-size: 1.25rem !important;
+    font-weight: 350;
+    line-height: 1.75rem;
+}
 
+#how-svg {
+    top: -13%;
+    display: block;
+    right: -9.8%;
+    z-index: -1;
 
-
+}
 
 
 
@@ -535,12 +564,14 @@
         width: 576px;
     }
 
-    .invst-para {
+    .invst-para,
+    .how-para {
         font-size: 16px !important;
         line-height: 22px;
     }
 
-    .invst-head {
+    .invst-head,
+    .how-head {
         font-size: 28px !important;
         letter-spacing: -.14px !important;
         line-height: 34px;
@@ -549,6 +580,18 @@
     .incst-rawpara {
         font-size: 16px !important;
         line-height: 22px;
+    }
+
+    .how-card-head {
+        font-size: 22px !important;
+        font-weight: 800;
+        line-height: 30px;
+        font-family: manrope-2xbold;
+    }
+
+    #how-svg {
+        display: none;
+
     }
 
 }
