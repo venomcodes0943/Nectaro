@@ -37,9 +37,27 @@
         </div>
     </header>
     <div class="container mt-0 mt-lg-5">
-        <div class="login d-flex justify-content-center align-items-center">
-            <form class="login-form d-flex flex-column align-items-center">
-                <h2 class="form-head py-2">Welcome back</h2>
+        <div class="pb-4 mx-2 top-tabs d-flex justify-content-center">
+            <a href="#" class="text-decoration-none">
+                <div class="left-tab">Individual</div>
+            </a>
+            <a href="#" class="text-decoration-none">
+                <div class="right-tab">Company</div>
+            </a>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <form class="create-form d-flex flex-column align-items-center">
+                <h2 class="form-head py-2 text-center">Sign up as an individual</h2>
+                <div
+                    class="d-flex flex-column flex-md-row flex-lg-row justify-content-between w-100 gap-0 gap-lg-4 gap-md-3">
+                    <input type="email" class="form-input my-3" placeholder="First name">
+                    <input type="email" class="form-input my-3" placeholder="Last name">
+                </div>
+                <select class="form-input">
+                    <option class="form-input">Pakistan</option>
+                    <option class="form-input">USA</option>
+                    <option class="form-input">Argentina</option>
+                </select>
                 <input type="email" class="form-input my-3" placeholder="Email">
                 <span class="w-100 position-relative">
                     <input type="password" class="form-input my-3 w-100" placeholder="Password">
@@ -52,16 +70,7 @@
                             d="M12.0004 9.13965C10.4304 9.13965 9.15039 10.4196 9.15039 11.9996C9.15039 13.5696 10.4304 14.8496 12.0004 14.8496C13.5704 14.8496 14.8604 13.5696 14.8604 11.9996C14.8604 10.4296 13.5704 9.13965 12.0004 9.13965Z"
                             fill="currentColor" />
                     </svg>
-
                 </span>
-                <div class="d-flex justify-content-between w-100 align-items-center py-1">
-                    <div class="pb-3 position-relative link-hover"><a href="#"
-                            class="link-form text-decoration-none">Reset password</a>
-                    </div>
-                    <div class="pb-3 position-relative link-hover"><a href="createaccount.html"
-                            class="link-form text-decoration-none">Create account</a>
-                    </div>
-                </div>
                 <button type="submit" class="form-btn w-100">
                     Sign in
                 </button>
